@@ -114,6 +114,11 @@ img {
   max-width: 100%;
 }
 
+video {
+  object-fit: contain;
+  max-width: 100%;
+}
+
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
