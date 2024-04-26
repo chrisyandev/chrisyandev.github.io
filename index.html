@@ -17,7 +17,21 @@
       name="Chris Yan"
       content="Unity, Unreal Engine, Game Developer, AI Programmer, UI Developer"
     />
-    <link rel="stylesheet" href="index.css" />
+
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/mediaelement/build/mediaelement-and-player.min.js"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Scripts -->
+    <script src="./node_modules/jquery/dist/jquery.js" defer></script>
+    <script
+      src="./node_modules/mediaelement/build/mediaelement-and-player.min.js"
+      defer
+    ></script>
+    <script src="./index.js" defer></script>
   </head>
 
   <body>
@@ -110,17 +124,13 @@
               <div class="work__image-box">
                 <a href="https://youtu.be/SDEuUiIwu1o" title="Play on YouTube">
                   <video
-                    preload="none"
-                    autoplay
-                    muted
-                    loop
-                    poster="./images/immunity-reborn.png"
-                  >
-                    <source
-                      src="./videos/immunity-reborn-trailer.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
+                    src="https://youtu.be/SDEuUiIwu1o"
+                    width="320"
+                    height="240"
+                    class="mejs__player"
+                    data-mejsoptions='{"alwaysShowControls": "false", "stretching": "responsive"}'
+                    type="video/youtube"
+                  ></video>
                 </a>
               </div>
             </div>
@@ -367,6 +377,5 @@
         class="back-to-top__image"
       />
     </a>
-    <script src="./index.js"></script>
   </body>
 </html>
