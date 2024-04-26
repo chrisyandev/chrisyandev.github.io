@@ -119,18 +119,6 @@ video {
   max-width: 100%;
 }
 
-.mejs__layers {
-  display: none;
-}
-
-.mejs__controls {
-  display: none;
-}
-
-.mejs__offscreen {
-  display: none;
-}
-
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
